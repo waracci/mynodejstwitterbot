@@ -1,0 +1,15 @@
+{
+  "name": "mybot",
+  "version": "1.0.0",
+  "description": "my second twitter bot, but I hard-coded this myself.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "waracci",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.5"
+  }
+}
