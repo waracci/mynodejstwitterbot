@@ -9,7 +9,7 @@ var Twitter = new twit(config);
 //function that finds the latest tweets 
 var retweet = function() {
   var params = {
-    q: '#nodejs, #Nodejs',
+    q: '#nodejs, #Nodejs', '#changamkanamoringa',
     result_type: 'recent',
     lang: 'en'
   }
