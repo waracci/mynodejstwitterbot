@@ -44,7 +44,7 @@ Twitter.get('search/tweets', params, function(err, data){
 //grab and retweet as soon as program starts running
 
 retweet();
-setInterval(retweet, 3000000);// 50 minutes
+setInterval(retweet, 1500000);// 50 minutes
 
 //find a random tweet and favorite it
 
